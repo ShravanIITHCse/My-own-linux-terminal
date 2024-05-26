@@ -1,0 +1,22 @@
+myls :
+    Usage: myls [OPTION]... [FILE]...
+     List information about the FILEs (the current directory by default).
+     Sort entries alphabetically
+
+    Arguements that i implemented in this code
+
+    1) -l : use a long listing format
+
+    2) -S : sort by file size, largest first
+
+    3) -s : print the allocated size of each file, in blocks
+
+    4) -g : like -l, but do not list owner
+
+    5) -o : like -l, but do not list group information
+
+    6) -r : reverse order while sorting
+
+    7) -ls : use a long listing format , print the allocated size of each file, in blocks
+
+    8) -lS : use a long listing format , sort by file size, largest first

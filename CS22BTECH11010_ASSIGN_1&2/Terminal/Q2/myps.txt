@@ -1,0 +1,12 @@
+myps :
+    Usage:
+     myps [options]
+
+    1) -e : Select all processes.
+
+    2) -a : Select all processes except both session leaders (see getsid(2)) and processes not associated with a terminal.
+
+    3) -F : Extra full format.
+
+    4) -aF : Select all processes except both session leaders (see getsid(2)) and processes not associated with a terminal.Extra full format.
+

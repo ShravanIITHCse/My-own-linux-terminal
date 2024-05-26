@@ -1,0 +1,15 @@
+mygrep :
+    Usage: grep [OPTION] PATTERNS [FILE]
+    Search for PATTERNS in each FILE.
+    Example: mygrep -i 'hello world' menu.h main.c
+    PATTERNS can contain multiple patterns separated by newlines.
+
+    Arguements that i embbeded in this code are
+
+    1) -m : stop after NUM selected lines
+
+    2) -v : select non-matching lines
+
+    3) -o : show only nonempty parts of lines that match
+
+    4) -n : print line number with output lines

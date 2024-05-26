@@ -1,0 +1,14 @@
+mycp:
+    Usage: mycp [OPTION] SOURCE DEST
+    Copy SOURCE to DEST
+
+    Arguements that I have embbeded in my code given
+
+    1) -r : copy directories recursively
+
+    2) -n : do not overwrite an existing file
+
+    3) -f : if an existing destination file cannot be opened, remove it and try again 
+            (this option is ignored when the -n option is also used)
+
+    4) -i : prompt before overwrite (overrides a previous -n option)

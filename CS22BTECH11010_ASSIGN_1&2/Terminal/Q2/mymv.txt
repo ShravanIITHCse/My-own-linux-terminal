@@ -1,0 +1,15 @@
+mymv:
+    Usage: mymv [OPTION] SOURCE DEST
+    Move SOURCE to DEST
+
+    Arguements that I have embbeded in my code given
+
+    1) -v : explain what is being done
+
+    2) -n : do not overwrite an existing file
+
+    3) -f : do not prompt before overwriting
+
+    4) -r : move directories recursively
+
+    5) -i : prompt before overwrite
